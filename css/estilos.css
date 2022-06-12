@@ -1,0 +1,213 @@
+﻿body 
+{
+    background-color: #ffffff;
+    font: normal 14px sans-serif;
+    background: #AFE068 url(../img/background.png) repeat-x;
+}
+
+#encabezado
+{
+    width:880px;
+    height:250px;
+    background-image:url(../img/banner.jpg);
+    color:#488000;
+    font-size: x-large;
+}
+
+#fondoContenido
+{
+    position: relative;
+    width: 920px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #FFF;
+    border: initial;
+    overflow: overlay;
+}
+
+
+#lateral
+{
+    float: left;
+    width: 200px;
+    padding: 35px;
+}
+
+#artPrincipal
+{
+    float:left;
+    width: 600px;
+    margin-right: 25px;
+    padding-bottom: 25px;
+}
+
+a
+{
+    color: black;
+    border-right: 1px solid white;
+    padding: 0px 14px;
+}
+
+#rana
+{
+    height:270px;
+    width: 210px;
+    float: left;
+}
+
+#visiteCR
+{
+    color:forestgreen;
+}
+
+h4
+{
+    color:forestgreen;
+}
+
+h1
+{
+    float: left;
+    padding: 15px;
+    margin-left: 15px;
+}
+
+#pVisiteCR
+{
+    padding-left: 225px;
+}
+
+li
+{
+    float:left;
+    color:white;
+    border-right: 1px solid #FFF;
+    text-decoration:none;
+    padding: 10px 25px 10px 25px;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:inline-table;
+    flex-direction: row;
+    width: 880px;
+    height: 35px;
+    background: #488000;
+    position:initial; 
+}
+
+#piePagina
+{
+    position: relative;
+    width: 880px;
+    height: 35px;
+    margin: 2px;
+    background: #488000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuPiePagina
+{
+    overflow:hidden;
+
+}
+
+#menuPiePagina .opcion
+{
+    float:left;
+    color:white;
+    border-right: 1px solid white; 
+}
+
+#menuPiePagina .ultimaOpcion
+{
+    float:left;
+    color:white;
+    border-right: 0px solid white; 
+}
+
+#container
+{
+    overflow:hidden;
+    background: #488000;
+}
+
+#container .principal
+{
+    float:left;
+    color:white;
+    border-right: 1px solid #FFF;
+    text-decoration:none;
+    padding: 10px 25px 10px 25px;
+}
+
+.dropdown
+{
+    float:left;
+    overflow:hidden;
+}
+
+#container a:hover, .dropdown:hover .dropbtn
+{
+    color: #488000;
+    background: #AFE068;
+}
+
+.dropdown .dropbtn
+{
+    border: none;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    background-color: #488000;
+    border-right: 1px solid #FFF; 
+}
+
+#container a.last
+{
+    border-right: 0px;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #488000;
+    min-width: 137px;
+    margin-top: 37px;
+}
+
+.dropdown-content a
+{
+    display: block;
+    float: none;
+    color: white;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover
+{
+    color: #488000;
+    text-decoration: none;
+    background: #AFE068;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+#menubar
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
